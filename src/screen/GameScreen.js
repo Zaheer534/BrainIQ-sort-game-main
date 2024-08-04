@@ -357,7 +357,16 @@ const GameScreen = ({route, navigation}) => {
           {columns.map((column, idx) => (
             <View
               key={idx}
-              style={[styles.bottle, {opacity: column.length === 0 ? 0.5 : 1}]}>
+              style={[
+                styles.bottle,
+                {
+                  opacity: column.length === 0 ? 0.5 : 1,
+                  borderColor:
+                    column.length === 0
+                      ? 'rgba(18, 17, 17,1)'
+                      : 'rgba(18, 17, 17,1)',
+                },
+              ]}>
               {column.map((color, colorIdx) => {
                 const isSelected = selectedDisk?.from === idx && colorIdx === 0;
 
@@ -488,7 +497,7 @@ const styles = StyleSheet.create({
   bottle: {
     width: bottleWidth,
     height: 293,
-    backgroundColor: 'rgba(255, 255, 255,0.7)',
+    backgroundColor: 'white',
     justifyContent: 'flex-end',
     alignItems: 'center',
     margin: 10,
@@ -496,8 +505,8 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 10,
     borderBottomLeftRadius: 25,
     borderBottomRightRadius: 25,
-    borderWidth: 1,
-    borderColor: 'rgba(0, 0, 0, 0.1)',
+    borderWidth: 3,
+    borderColor: 'black',
     paddingVertical: 10,
     shadowColor: '#000',
     shadowOffset: {width: 0, height: 2},
@@ -508,7 +517,7 @@ const styles = StyleSheet.create({
   disk: {
     width: bottleWidth * 0.83,
     height: bottleWidth * 0.83,
-    borderRadius: 25,
+    borderRadius: 30,
     margin: 3,
     borderWidth: 1,
     borderColor: 'transparent',

@@ -3,16 +3,25 @@ import {StyleSheet, View} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 
 const backgroundColors = [
-  ['#6dd5ed', '#2193b0'], // Background for level 1
-  ['#6dd5ed', '#2193b0'], // Background for level 2
-  ['#6dd5ed', '#2193b0'], // Background for level 3
-  ['#86a8e7', '#e7c586'], // Background for level 4
-  ['#86a8e7', '#e7c586'], // Background for level 5
-  ['#86a8e7', '#e7c586'], // Background for level 6
-  ['#6dd5ed', '#2193b0'], // Background for level 7
-  ['#6dd5ed', '#2193b0'], // Background for level 8
-  ['#6dd5ed', '#2193b0'], // Background for level 9
-  ['#7F7FD5', '#86A8E7', '#91EAE4'], // Background for level 10
+  ['#870000', '#190a05'], // Background for level 1
+  ['#870000', '#190a05'], // Background for level 2
+  ['#870000', '#190a05'], // Background for level 3
+  ['#870000', '#190a05'], // Background for level 4
+  ['#870000', '#190a05'], // Background for level 5
+  ['#870000', '#190a05'], // Background for level 6
+  ['#870000', '#190a05'], // Background for level 7
+  ['#870000', '#190a05'], // Background for level 8
+  ['#870000', '#190a05'], // Background for level 9
+  ['#870000', '#190a05'], // Background for level 10
+  // ['#414d0b', '#727a17'], // Background for level 2
+  // ['#614385', '#516395'], // Background for level 3
+  // ['#16222a', '#3a6073'], // Background for level 4
+  // ['#86a8e7', '#e7c586'], // Background for level 5
+  // ['#86a8e7', '#e7c586'], // Background for level 6
+  // ['#6dd5ed', '#2193b0'], // Background for level 7
+  // ['#6dd5ed', '#2193b0'], // Background for level 8
+  // ['#6dd5ed', '#2193b0'], // Background for level 9
+  // ['#7F7FD5', '#86A8E7', '#91EAE4'], // Background for level 10
   ['#7F7FD5', '#86A8E7', '#91EAE4'], // Background for level 11
   ['#7F7FD5', '#86A8E7', '#91EAE4'], // Background for level 12
   ['#86a8e7', '#d886e7', '#cfe786'], // Background for level 13
