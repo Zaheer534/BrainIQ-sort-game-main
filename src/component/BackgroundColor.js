@@ -6,8 +6,8 @@ const backgroundColors = [
   ['#870000', '#190a05'], // Background for level 1
   ['#870000', '#190a05'], // Background for level 2
   ['#870000', '#190a05'], // Background for level 3
-  ['#870000', '#190a05'], // Background for level 4
-  ['#870000', '#190a05'], // Background for level 5
+  ['#780206', '#061161'], // Background for level 4
+  ['#000000', '#e74c3c'], // Background for level 5
   ['#870000', '#190a05'], // Background for level 6
   ['#870000', '#190a05'], // Background for level 7
   ['#870000', '#190a05'], // Background for level 8
